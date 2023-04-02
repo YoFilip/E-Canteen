@@ -16,7 +16,7 @@ http://localhost/phpmyadmin/ lub localhost/phpmyadmin/
 ```
 4.1 Na górnym pasku narzędzi strony znajduje się zakładka ```Inport``` wejdź w nią i w kolejnej zakładce ```Plik do inportu``` wybierz opcję ```Wybierz plik```. Wybranym plikiem powinien być plik ```canteen.sql``` z pliku wyodrębnionego na twoim pulpicie w folderze 
 ```python
-Pulpit\E-Canteen\database
+Pulpit\E-Canteen-Projekt\E-Canteen\database
 ```
 a następnie jak już go wybierzesz naciśnij otwórz.
 
