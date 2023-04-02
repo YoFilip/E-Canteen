@@ -61,6 +61,8 @@ http://localhost/phpmyadmin/ lub localhost/phpmyadmin/
 a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wartość ```is_admin``` danego urzytkownika na ```1``` 
 !!!Jeżeli nie będziesz posiadać roli administratora nie będziesz mógł ```odejmować (skanować zamównia)``` lub ```oddawać (dodawać kartki urzytkowniką)```!!!.
 
+### Uwaga
+
 2. Aby skanować kod muszisz posiadać ```localhost```na telefonie lub posiadać ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
 
 
