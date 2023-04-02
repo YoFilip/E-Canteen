@@ -63,7 +63,7 @@ a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wart
 
 ### Uwaga
 
-2. Aby skanować kod muszisz posiadać ```localhost```na telefonie lub posiadać ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
+Aby skanować kod muszisz posiadać ```localhost```na telefonie lub posiadać ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
 
 
 ## Technologie
