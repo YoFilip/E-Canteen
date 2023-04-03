@@ -59,8 +59,9 @@ Aby użyć naszego Systemu E-Canteen musisz w swojej przeglądarce wpisać w pol
 ```python
 http://localhost/phpmyadmin/ lub localhost/phpmyadmin/
 ```
-a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wartość ```is_admin``` danego urzytkownika na ```1``` 
-!!!Jeżeli nie będziesz posiadać roli administratora nie będziesz mógł ```odejmować (skanować zamównia)``` lub ```oddawać (dodawać kartki urzytkowniką)```!!!.
+a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wartość ```is_admin``` danego urzytkownika na ```1```
+
+!!!Jeżeli nie będziesz posiadać roli administratora nie będziesz mógł ```odejmować``` i ```dodawać kuponów urzytkowniką```!!!.
 
 ### Uwaga
 
