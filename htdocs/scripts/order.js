@@ -1,13 +1,13 @@
-//Instrukcja aby zminić menu w danym dniu wystarczy że w linijce np:
+//Instrukcja aby zmienić menu w danym dniu wystarczy że w linijce np:
 //
 // <label><input type="checkbox" id="Barszcz biały" value="Barszcz biały" spellcheck="false">Barszcz biały</label>
 //
-//Zmienisz nazwę potrawy w id="Danie" , value ="Danie" oraz między zamknięciem inputa a zamknięciem labela wpiszesz danie spellcheck="false">Danie</label>: 
+//Zmienisz nazwę potrawy w id="Danie" , value ="Danie" oraz między zamknięciem inputa a zamknięciem labela wpiszesz danie [spellcheck="false">Danie</label>]: 
 
 //id="Danie" 
 //value="Danie" 
 //spellcheck="false">Danie</label>
-//Zrob to dla wszystkich labelów jakie masz w danej funkcji!!
+//Zrób to dla wszystkich labelów jakie masz w danej funkcji!!
 
 
 
