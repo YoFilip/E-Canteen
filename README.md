@@ -63,6 +63,44 @@ a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wart
 
 !!!Jeżeli nie będziesz posiadać roli administratora nie będziesz mógł ```odejmować``` i ```dodawać kuponów urzytkowniką```!!!.
 
+## Zmiana jadłospisu
+
+1. Aby zmienić jadłospis musisz wejść w folder:
+```javascript
+htdocs/scripts/order.js
+```
+A następnie zmienić kod tak jak w instrukcji na górze pliku:
+```javascript
+//Instrukcja aby zmienić menu w danym dniu wystarczy że w linijce np:
+//
+// <label><input type="checkbox" id="Barszcz biały" value="Barszcz biały" spellcheck="false">Barszcz biały</label>
+//
+//Zmienisz nazwę potrawy w id="Danie" , value ="Danie" oraz między zamknięciem inputa a zamknięciem labela wpiszesz danie [spellcheck="false">Danie</label>]: 
+
+//id="Danie" 
+//value="Danie" 
+//spellcheck="false">Danie</label>
+//Zrób to dla wszystkich labelów jakie masz w danej funkcji!!
+
+
+
+//Menu dla poniedziałku
+function showMenuForMonday() {
+    const formDiv = document.querySelector(".form");
+    formDiv.innerHTML = `
+        <label><input type="checkbox" id="Barszcz biały" value="Barszcz biały" spellcheck="false">Barszcz biały</label>
+        <label><input type="checkbox" id="Kotlet schabowy panierowany" value="Kotlet schabowy panierowany" spellcheck="false">Kotlet schabowy panierowany</label>
+        <label><input type="checkbox" id="Stek w jajku" value="Stek w jajku" spellcheck="false">Stek w jajku</label>
+        <label><input type="checkbox" id="Kopytka z sosem pieczarkowym" value="Kopytka z sosem pieczarkowym" spellcheck="false">Kopytka z sosem pieczarkowym</label>
+        <label><input type="checkbox" id="Ziemniaki" value="Ziemniaki" spellcheck="false">Ziemniaki</label>
+        <label><input type="checkbox" id="Surówka" value="Surówka" spellcheck="false">Surówka</label>
+        <label><input type="checkbox" id="Kompot" value="Kompot" spellcheck="false">Kompot</label>
+        <button id="btn">Generuj kod QR</button>
+    `;
+}
+```
+
+
 ### Uwaga
 
 * Aby skanować kod muszisz posiadać projekt na  ```localhost``` w telefonie z kamera przednią lub tylną (ponieważ strona nie jest na hostingu więc nie możemy korzystać na obu urządzeniach PC i Phone) lub posiadać projekt na  ```localhost``` w komuterze z  ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
