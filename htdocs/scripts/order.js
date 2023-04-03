@@ -1,3 +1,17 @@
+//Instrukcja aby zminić menu w danym dniu wystarczy że w linijce np:
+//
+// <label><input type="checkbox" id="Barszcz biały" value="Barszcz biały" spellcheck="false">Barszcz biały</label>
+//
+//Zmienisz nazwę potrawy w id="Danie" , value ="Danie" oraz między zamknięciem inputa a zamknięciem labela wpiszesz danie spellcheck="false">Danie</label>: 
+
+//id="Danie" 
+//value="Danie" 
+//spellcheck="false">Danie</label>
+//Zrob to dla wszystkich labelów jakie masz w danej funkcji!!
+
+
+
+//Menu dla poniedziałku
 function showMenuForMonday() {
     const formDiv = document.querySelector(".form");
     formDiv.innerHTML = `
@@ -11,7 +25,7 @@ function showMenuForMonday() {
         <button id="btn">Generuj kod QR</button>
     `;
 }
-
+//Menu dla wtorku
 function showMenuForTuesday() {
     const formDiv = document.querySelector(".form");
     formDiv.innerHTML = `
@@ -26,7 +40,7 @@ function showMenuForTuesday() {
         <button id="btn">Generuj kod QR</button>
     `;
 }
-
+//Menu dla środy
 function showMenuForWednesday() {
     const formDiv = document.querySelector(".form");
     formDiv.innerHTML = `
@@ -42,7 +56,7 @@ function showMenuForWednesday() {
     `;
 }
 
-
+//Menu dla czwartku
 function showMenuForThursday() {
     const formDiv = document.querySelector(".form");
     formDiv.innerHTML = `
@@ -57,6 +71,8 @@ function showMenuForThursday() {
     <button id="btn">Generuj kod QR</button>
 `;
 }
+//Menu dla piątku
+
 function showMenuForFriday() {
     const formDiv = document.querySelector(".form");
     formDiv.innerHTML = `
