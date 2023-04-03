@@ -72,8 +72,6 @@ a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wart
 
 ## Technologie
 
-### Related projects
-
 * PHP
 * JS
 * HMTL
