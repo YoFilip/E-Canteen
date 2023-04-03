@@ -35,13 +35,13 @@ C:\xampp\htdocs
 ```python
 C:\xampp\php
 ```
-6.2 A następnie wklej tam plik ```php.ini``` z folderu ```ini``` wyodrębnionego na twoim pulpicie w folderze ```E-Canteen```. W przypadku jeżeli taki plik już istnieje wybierz opcję ```Zamień plik w miejscu docelowym``` 
+6.2 Następnie wklej tam plik ```php.ini``` z folderu ```ini``` wyodrębnionego na twoim pulpicie w folderze ```E-Canteen```. W przypadku jeżeli taki plik już istnieje wybierz opcję ```Zamień plik w miejscu docelowym``` 
 
 7. Wejdź do eksploratora plików i w górnej części wyszukiwania ścieżki wpisz  
 ```python
 C:\xampp\sendmail
 ```
-7.2 A następnie wklej tam plik ```sendmail.ini``` z folderu ```ini``` wyodrębnionego na twoim pulpicie w folderze ```E-Canteen```. W przypadku jeżeli taki plik już istnieje wybierz opcję ```Zamień plik w miejscu docelowym``` 
+7.2 Następnie wklej tam plik ```sendmail.ini``` z folderu ```ini``` wyodrębnionego na twoim pulpicie w folderze ```E-Canteen```. W przypadku jeżeli taki plik już istnieje wybierz opcję ```Zamień plik w miejscu docelowym``` 
 
 ``Brawo System E-Canteen jest gotowy do twojego urzytku``
 
