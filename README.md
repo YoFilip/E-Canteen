@@ -25,13 +25,13 @@ a następnie jak już go wybierzesz naciśnij otwórz.
 
 Brawo właśnie zaimportowałeś bazę danych do naszego systemu:)
 
-5. Wejdź do eksploratora plików i w górnej części wyszukiwania ścieżki wpisz  
+5. Wejdź do eksploratora plików (dokumentów twojego komputera) i w górnej części wyszukiwania ścieżki wpisz  
 ```python
 C:\xampp\htdocs
 ```
 5.2 Usuń całą zawartość folderu htdocs do którego cię przekierowało a następnie wklej tam całą zawartość folderu htdocs z folderu z pliku wyodrębnionego na twoim pulpicie ```E-Canteen```
 
-6. Wejdź do eksploratora plików i w górnej części wyszukiwania ścieżki wpisz  
+6. Wejdź do eksploratora plików (dokumentów twojego komputera) i w górnej części wyszukiwania ścieżki wpisz  
 ```python
 C:\xampp\php
 ```
