@@ -1,7 +1,8 @@
 # E-Canteen
 
 E-Canteen to system zastępujący system kartek w kantynie ZSEII w Sosnowcu na wersję cyfrową.
-System jest bardzo prosty każdy urzytkownik ma swoje konto na którym ma możliwość doładowania kuponów w formie elektronicznej a następnie zagospodarować je na jedzenie w kantynie. 
+System jest bardzo prosty każdy urzytkownik ma swoje konto na którym ma możliwość doładowania kuponów w formie elektronicznej a następnie zamiany ich na danie obiadowe
+zamieszczone w danym dniu w menu naszej [kantyny](https://zse.edu.pl/kantyna/).
 
 ## Instalacja
 
