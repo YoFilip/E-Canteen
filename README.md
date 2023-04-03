@@ -65,7 +65,7 @@ a następnie wejść w bazę canteen i tabelę users i w zakładce zmienić wart
 
 ### Uwaga
 
-* Aby skanować kod muszisz posiadać ```localhost``` na telefonie lub posiadać ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
+* Aby skanować kod muszisz posiadać ```localhost``` na telefonie z kamera przednią lub tylną (ponieważ strona nie jest na hostingu więc nie możemy korzystać na obu urządzeniach PC i Phone) lub posiadać ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
 
 * Scrypt dzięki któremu Administrator może skanować kod QR ze względu na ograniczony czas został zaciągnięty od zagranicznego twórcy [youtube](https://www.youtube.com/@mashtech5092), a następnie przerobiony pod nasze wymagania. Aktualnie scrypt pisany przez nas od zera jest stworzony w ok. 60% lecz przez termin oddania działającej pracy byliśmy zmuszeni pokazać Jurorom przerobiony scrypt zagranicznego twórcy.
 
