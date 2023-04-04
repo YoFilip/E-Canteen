@@ -51,6 +51,41 @@ Aby użyć naszego Systemu E-Canteen musisz w swojej przeglądarce wpisać w pol
 ```
 
 
+### ! Uwaga !
+
+* Przez pośpiech z wysłaniem pracy popełniliśmy błąd a mianowicie źle wywołaliśmy plik ```order.js``` w pliku ```order.php``` przez co kod QR potrzeby do zeskanowania zamównieia i odjęcia kuponów urzytkownikowi się nie generuje aby to naprawić muszisz wejść w plik np. za pomocą notatnika:
+```javascript
+C:\xampp\htdocs/sites/order.php/
+```
+a tam skopiować a następnie usunąć linijkę 73 lub jeżeli używasz notatnika to linijkę:
+```javascript
+<script src="../scripts/order.js"></script>
+```
+a następnie wkleić ją nad linijką 71 
+```javascript
+<script src="../scripts/QR.js"></script>
+```
+Poprawiawiona końcówka pliku powina wyglądać tak:
+```javascript
+<script src="../scripts/order.js"></script>
+<script src="../scripts/QR.js"></script>
+<script src="../scripts/app.js"></script>
+```
+zamiast tak:
+```javascript
+<script src="../scripts/QR.js"></script>
+<script src="../scripts/app.js"></script>
+<script src="../scripts/order.js"></script>
+```
+
+
+* Aby skanować kod muszisz posiadać projekt na  ```localhost``` w telefonie z kamera przednią lub tylną (ponieważ strona nie jest na hostingu więc nie możemy korzystać na obu urządzeniach PC i Phone) lub posiadać projekt na  ```localhost``` w komuterze z  ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
+
+* Scrypt dzięki któremu Administrator może skanować kod QR ze względu na ograniczony czas realizacji projektu został zaciągnięty od zagranicznego twórcy [MashTecha](https://www.youtube.com/@mashtech5092). Następnie został zmodyfikowany tak aby spełniał nasze oczekiwania względem projektu. Aktulanie autorski scrypt który zastąpi 
+użyty scrypt [MashTecha](https://www.youtube.com/@mashtech5092) jest w fazie pisania (obecne wykonanie 60%). Po ukończeniu autorskiego scryptu zostanie on użyty w projekcjie.
+
+
+
 ## Opcje 
 
 ### Nadanie Roli Administratora
@@ -99,14 +134,6 @@ function showMenuForMonday() {
     `;
 }
 ```
-
-
-### Uwaga
-
-* Aby skanować kod muszisz posiadać projekt na  ```localhost``` w telefonie z kamera przednią lub tylną (ponieważ strona nie jest na hostingu więc nie możemy korzystać na obu urządzeniach PC i Phone) lub posiadać projekt na  ```localhost``` w komuterze z  ```kamerkę internetową``` podłączoną i skalibrowaną sterownikami do komputera.
-
-* Scrypt dzięki któremu Administrator może skanować kod QR ze względu na ograniczony czas realizacji projektu został zaciągnięty od zagranicznego twórcy [MashTecha](https://www.youtube.com/@mashtech5092). Następnie został zmodyfikowany tak aby spełniał nasze oczekiwania względem projektu. Aktulanie autorski scrypt który zastąpi 
-użyty scrypt [MashTecha](https://www.youtube.com/@mashtech5092) jest w fazie pisania (obecne wykonanie 60%). Po ukończeniu autorskiego scryptu zostanie on użyty w projekcjie.
 
 ## Technologie
 
